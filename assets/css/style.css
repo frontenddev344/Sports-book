@@ -584,3 +584,6 @@
  .explore-btn a, .casino-rate h6, .footer-links ul li a{
      font-size: 18px;
 }
+.serch-btn input::-webkit-search-cancel-button,   #search::-webkit-search-cancel-button{
+    display: none;
+}
