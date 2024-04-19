@@ -6,3 +6,20 @@ $(document).ready(function(){
       $(".sub-nav").removeClass("menu-block");
     });
   });
+
+  $(document).ready(function(){
+  $(".toggle").click(function(){
+    $("header").addClass("menuToggle");
+  });
+  $(".close").click(function(){
+    $("header").removeClass("menuToggle");
+  });
+  });
+$(document).ready(function(){
+ $(".mb-serch").click(function(){
+  $(".mobile-serch-bar").addClass("serch-block");
+ });
+ $(".serch-close").click(function(){
+  $(".mobile-serch-bar").removeClass("serch-block");
+ });
+});
