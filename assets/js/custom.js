@@ -8,12 +8,16 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+
   $(".toggle").click(function() {
       $("header").addClass("menuToggle");
   });
   $(".close").click(function() {
       $("header").removeClass("menuToggle");
   });
+
+
+  
 });
 $(document).ready(function() {
   $(".mb-serch").click(function() {
