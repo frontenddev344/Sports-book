@@ -58,7 +58,7 @@
      max-width: 100%;
 }
  .site-logo img {
-     width: 200px;
+     width: 100px;
 }
  .nav-wrap{
      display: flex;
@@ -127,16 +127,18 @@
      display: flex;
      align-self: start;
      transform: scale(0);
-    /* display: none;
-     */
+     /*display: none;*/
      position: absolute;
      left: 0;
      z-index: 999999;
      width: 100%;
+     
 }
  .sub-nav.menu-block{
      transform: scale(1);
      background-color: #fff;
+     transition: all 0.2s linear;
+     
 }
  .sub-nav ul {
      width: 30%;
@@ -248,11 +250,11 @@
      background-color: #fff;
 }
  .site-banner .carousel-caption{
-     width: 40%;
+     width: 50%;
      margin: 0 auto;
 }
  .site-banner .carousel-caption h5{
-     font-size: 30px;
+     font-size: 40px;
      text-transform: uppercase;
 }
  .site-banner .carousel-caption p{
@@ -550,7 +552,7 @@ height: 100%;
 /* Restaurants & Bars page css end here */
 /* footer section css start here */
  .footer-logo img {
-     width: 250px;
+     width: 120px;
 }
  .site-footer {
      text-align: center;
