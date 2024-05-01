@@ -137,7 +137,7 @@
  .sub-nav.menu-block{
      transform: scale(1);
      background-color: #fff;
-     transition: all 0.2s linear;
+     /* transition: all 0.2s linear; */
      
 }
  .sub-nav ul {
