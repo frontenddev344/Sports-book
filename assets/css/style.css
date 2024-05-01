@@ -126,19 +126,22 @@
      height: 0px;
      display: flex;
      align-self: start;
-     transform: scale(0);
-     /*display: none;*/
-     position: absolute;
+     /*transform: scale(0);
+     *//*display: none;
+     */position: absolute;
      left: 0;
      z-index: 999999;
      width: 100%;
-     
+     /* transition: all 0.3s linear; */
+     transform: translateY(-100vh);
+
 }
  .sub-nav.menu-block{
-     transform: scale(1);
-     background-color: #fff;
-     /* transition: all 0.2s linear; */
-     
+     /*transform: scale(1);
+     */background-color: #fff;
+     transform: translateY(0%);
+     transition: all 0.2s linear;
+
 }
  .sub-nav ul {
      width: 30%;
