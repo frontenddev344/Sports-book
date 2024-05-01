@@ -333,7 +333,7 @@
         height: 280px;
    }
     .sub-nav.menu-block, .main-nav {
-        height: 332px;
+        height: 100vh;
    }
     .mb-toggle-menu i {
         font-size: 17px;

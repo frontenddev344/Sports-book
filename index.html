@@ -55,6 +55,42 @@
          color: var(--white);
          z-index: 9;
          }
+
+
+
+         #cookies-popup {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background-color:#fff;
+     color: #000;
+     padding: 20px 20px;
+     text-align: center;
+     box-shadow: rgb(0 0 0 / 20%) 0px 0px 15px;
+     z-index: 99;
+    /* display: none; */
+}
+ #cookies-popup p {
+     margin: 0;
+     color: var(--black);
+}
+ #cookies-popup button {
+     background-color: #be9f56;
+     border: 1px solid #be9f56;
+     color: #fff;
+     padding: 10px 20px;
+     cursor: pointer;
+     margin-top: 10px;
+     border-radius: 10px;
+}
+ #accept-cookies:hover {
+     background-color: transparent;
+     color: #be9f56;
+}
+/* cookies css end here */
+
+
       </style>
    </head>
    <body>
@@ -217,7 +253,7 @@
                      <div class="carousel-caption d-none d-md-block">
                         <h5>Welcome to sportsbookpromotions.org European Casino Hotels:</h5>
                         <p>Your Premier
-                           Destination for Luxury Gaming and Hospitality Reviews!.
+                           Destination for Luxury Gaming and Hospitality Reviews!
                         </p>
                      </div>
                   </div>
@@ -406,6 +442,16 @@
             </div>
          </div>
       </div>
+         <!-- cookies section start here -->
+   <div id="cookies-popup">
+      <p>Cookies are used by us to enhance your online experience. These are little text files stored on your
+         computer. If you continue to use our website, you consent to the use of cookies. Changes to your
+         cookie preferences can be made in the browser's settings. To learn more, check our privacy policy by
+         clicking here.
+      </p>
+      <button id="accept-cookies">Accept</button>
+   </div>
+   <!-- cookies section end here -->
       <script src="assets/js/jquery-3.7.1.min.js"></script>    
       <script src="assets/js/bootstrap.bundle.min.js"></script>
       <script src="assets/js/custom.js"></script>
@@ -431,6 +477,15 @@
                }
            }
          }
+         document.addEventListener("DOMContentLoaded", function() {
+    var acceptCookiesBtn = document.getElementById("accept-cookies");
+    var cookiesPopup = document.getElementById("cookies-popup");
+  
+    acceptCookiesBtn.addEventListener("click", function() {
+        cookiesPopup.style.display = "none";
+        // You can add code here to set a cookie to remember the user's choice
+    });
+  });
       </script>
    </body>
 </html>

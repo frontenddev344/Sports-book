@@ -101,13 +101,13 @@
 }
  .serch-btn {
      background-color: #fff;
-    /* border: 1px solid #000;
-     */
-     height: 40px;
+     /*border: 1px solid #000;
+     */height: 40px;
      width: 220px;
      display: flex;
      justify-content: center;
      align-items: center;
+     border-radius: 5px;
 }
  .serch-btn input{
      border: none;
@@ -510,6 +510,26 @@
  .barcard-img img{
      height: 515px;
      object-fit: cover;
+  
+}
+.barcard-img, .monte-img{
+    position: relative;
+    /* transition: all 0.5s linear; */
+
+}
+.barcard-img:hover::before, .monte-img:hover::before {
+height: 100%;
+}
+.barcard-img::before, .monte-img::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    transition: all 0.3s linear;
 }
  .bard-card-txt {
      padding: 30px;
@@ -560,7 +580,7 @@
      display: none;
 }
 /* footer section css end here */
- .top-right ul li a:hover, .main-nav ul li a:hover, .footer-links ul li a:hover{
+ .top-right ul li a:hover, .main-nav ul li a:hover, .footer-links ul li a:hover, .main-nav ul li a.active{
      color: var(--yellow);
      transition: all 0.3s linear;
 }
@@ -586,4 +606,7 @@
 }
 .serch-btn input::-webkit-search-cancel-button,   #search::-webkit-search-cancel-button{
     display: none;
+}
+.night-life-main .restaurant-wrap {
+    padding-bottom: 0;
 }
