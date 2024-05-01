@@ -1,9 +1,18 @@
 @media(min-width:1500px){
     .site-banner .carousel-caption {
-        bottom: 75%;
+        bottom: 70%;
+    }
+    .sub-nav.menu-block, .site-banner .carousel, .sub-banner {
+        height: 600px;
     }
 }
 @media(max-width:1200px){
+    .copy-right p {
+        font-size: 14px !important;
+   }
+    p {
+        font-size: 16px !important;
+    }
     .site-logo img {
         width: 90px;
    }
@@ -243,6 +252,9 @@
    }
 }
 @media(max-width:767px){
+    .copy-right p {
+        font-size: 12px !important;
+    }
     .casino-loc-wrap .monte-wrap {
         height: auto;
     }
@@ -266,7 +278,7 @@
         height: 300px;
    }
     p {
-        font-size: 12px;
+        font-size: 14px !important;
         margin-bottom: 8px;
    }
     .casino-hotel-box {
