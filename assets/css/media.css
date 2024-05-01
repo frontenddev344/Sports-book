@@ -365,7 +365,8 @@
         left: 5%;
    }
     .site-banner .carousel, .sub-banner {
-        height: 280px;
+        height: fit-content !important;
+        padding: 20px 0 !important;
    }
     .sub-nav.menu-block, .main-nav {
         height: 100vh;
@@ -399,7 +400,7 @@
         margin: 20px 0;
    }
     .sub-banner-heading p {
-        display: none;
+        /* display: none; */
    }
     .monte-img, .barcard-img img {
         height: 250px;
