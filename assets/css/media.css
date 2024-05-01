@@ -1,3 +1,8 @@
+@media(min-width:1500px){
+    .site-banner .carousel-caption {
+        bottom: 75%;
+    }
+}
 @media(max-width:1200px){
     .site-logo img {
         width: 85px;
@@ -70,6 +75,9 @@
     .privacy-box h4, .contact-txt-box h4, .monte-txt h4, .bard-card-txt h4 {
         font-size: 20px;
    }
+   .casino-loc-wrap .monte-wrap {
+    height: 270px;
+}
 }
 @media(max-width:992px){
     .top-nav {
@@ -234,6 +242,9 @@
    }
 }
 @media(max-width:767px){
+    .casino-loc-wrap .monte-wrap {
+        height: auto;
+    }
     .site-logo img {
         width: 70px;
    }

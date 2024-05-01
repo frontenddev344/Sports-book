@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
  :root{
      --light-white:#ffffffbd;
-     --dark-blue:#00205b;
-     --yellow:#be9f56;
+     --dark-blue:#38939b;
+     --yellow:#dcbc87;
      --white:#fff;
      --black:#000000e3;
 }
@@ -611,4 +611,10 @@ height: 100%;
 }
 .night-life-main .restaurant-wrap {
     padding-bottom: 0;
+}
+ /* new css start here */
+ .casino-loc-wrap .monte-wrap {
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 30px;
 }
