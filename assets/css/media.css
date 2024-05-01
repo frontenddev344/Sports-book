@@ -104,7 +104,7 @@
         top: 0;
         left: 0;
         width: 300px;
-        background: #000;
+        background: #38939b;
         /*height: 100vh;
         */z-index: 999;
         padding: 40px 20px;
@@ -144,6 +144,7 @@
         height: 519px;
    }
     .menuToggle .main-nav {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         transform: translateX(0%);
         -webkit-transform: translateX(0%);
         -moz-transform: translateX(0%);
@@ -305,7 +306,7 @@
         font-size: 10px;
    }
     .main-nav ul li a, .footer-links ul li a, .sub-nav ul li a, .contact-txt-box p {
-        font-size: 13px;
+        font-size: 14px;
    }
     .sub-nav.menu-block, .main-nav {
         height: 403px;
@@ -342,6 +343,9 @@
     .contact-txt-box ul li a, .site-banner .carousel-caption h5 {
         font-size: 20px;
    }
+   .menuToggle .main-nav {
+    height: 100vh;
+}
 }
 @media(max-width:575px){
     .serch-close {
@@ -390,6 +394,7 @@
     .casino-hotel-box {
         height: 200px;
    }
+
     .footer-logo img {
         width: 100px;
    }
