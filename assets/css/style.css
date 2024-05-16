@@ -144,9 +144,10 @@
 
 }
  .sub-nav ul {
-     width: 30%;
-     background-color: var(--black);
-     height: 100%;
+    border-top: 1px solid #fff;
+    width: 30%;
+    background-color: #38939b;
+    height: 100%;
 }
  .sub-nav ul li a{
      color: #fff;
@@ -332,9 +333,12 @@
 }
  .term-banner{
      background-image: url(../images/term-banner.jpg) !important;
+ 
+
 }
  .privacy-banner{
      background-image: url(../images/privacy-banner.jpg) !important;
+
 }
  .privacy-box h4 {
      font-size: 22px;
@@ -424,10 +428,15 @@
 .sub-banner.contact-banner{
     background-image: url(../images1/privacy-banner.jpg)!important;
 }
-
- .sub-nav.menu-block, .site-banner .carousel, .sub-banner{
-     height: 500px;
+.site-banner .carousel{
+    height: 500px;
 }
+
+ .sub-nav.menu-block,  .sub-banner{
+     height: 400px;
+}
+
+
  .london-banner{
      background-image: url(../images/sub-banner-02.jpg);
 }
