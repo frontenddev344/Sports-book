@@ -370,7 +370,7 @@
    }
     .site-banner .carousel, .sub-banner {
         height: fit-content !important;
-        padding: 20px 0 !important;
+        padding:  0 !important;
    }
     .sub-nav.menu-block, .main-nav {
         height: 100vh;
