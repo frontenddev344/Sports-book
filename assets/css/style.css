@@ -79,6 +79,7 @@
  .top-left p {
      margin-bottom: 0;
      color: var(--white);
+    font-size: 14px !important;
 }
  .main-nav ul {
      display: flex;
