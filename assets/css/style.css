@@ -58,7 +58,7 @@
      max-width: 100%;
 }
  .site-logo img {
-     width: 100px;
+    width: 240px;
 }
  .nav-wrap{
      display: flex;
@@ -583,7 +583,7 @@ height: 100%;
 /* Restaurants & Bars page css end here */
 /* footer section css start here */
  .footer-logo img {
-     width: 120px;
+    width: 240px;
 }
  .site-footer {
      text-align: center;
