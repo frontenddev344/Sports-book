@@ -611,27 +611,27 @@
       <script src="assets/js/bootstrap.bundle.min.js"></script>
       <script src="assets/js/custom.js"></script>
       <script>
-         window.onload = loader;
+         // window.onload = loader;
          
-         function loader() {
-           let loaderPage = document.querySelector('.loader-page');
-           let counter = document.querySelector('.loader-counter');
-           let fill = document.querySelector('.loader-fill');
-           let amount = 10;
-           let interval = setInterval(loop, 50);
+         // function loader() {
+         //   let loaderPage = document.querySelector('.loader-page');
+         //   let counter = document.querySelector('.loader-counter');
+         //   let fill = document.querySelector('.loader-fill');
+         //   let amount = 10;
+         //   let interval = setInterval(loop, 50);
          
-           function loop() {
-               if (amount >= 100) {
-                   clearInterval(interval);
-                   loaderPage.style.visibility = 'hidden';
-                   loaderPage.style.opacity = '0'
-               } else {
-                   amount++;
-                   fill.style.width = amount + '%';
-                   counter.textContent = amount * 1 + '%';
-               }
-           }
-         }
+         //   function loop() {
+         //       if (amount >= 100) {
+         //           clearInterval(interval);
+         //           loaderPage.style.visibility = 'hidden';
+         //           loaderPage.style.opacity = '0'
+         //       } else {
+         //           amount++;
+         //           fill.style.width = amount + '%';
+         //           counter.textContent = amount * 1 + '%';
+         //       }
+         //   }
+         // }
          document.addEventListener("DOMContentLoaded", function() {
     var acceptCookiesBtn = document.getElementById("accept-cookies");
     var cookiesPopup = document.getElementById("cookies-popup");
