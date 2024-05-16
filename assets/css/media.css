@@ -442,6 +442,12 @@
     .privacy-box {
         margin-bottom: 20px;
    }
+   .site-banner .carousel, .sub-banner {
+    height: 350px!important;
+}
+/* .site-banner .carousel{
+    height: 350px!important;
+} */
 }
 @media(max-width:376px){
     .contact-txt-box h4, h3, .monte-txt h4 {
