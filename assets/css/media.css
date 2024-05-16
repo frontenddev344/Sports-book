@@ -448,6 +448,10 @@
 /* .site-banner .carousel{
     height: 350px!important;
 } */
+.carousel-inner img {
+    height: 350px;
+    object-fit: cover;
+}
 }
 @media(max-width:376px){
     .contact-txt-box h4, h3, .monte-txt h4 {
