@@ -421,6 +421,10 @@
 .sub-banner.affordable{
     background-image: url(../images1/affordable-banner.jpg);
 }
+.sub-banner.contact-banner{
+    background-image: url(../images1/privacy-banner.jpg)!important;
+}
+
  .sub-nav.menu-block, .site-banner .carousel, .sub-banner{
      height: 500px;
 }
