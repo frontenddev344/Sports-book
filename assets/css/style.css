@@ -424,7 +424,7 @@
     background-image: url(../images1/casino-banner.jpg);
 }
 .sub-banner.affordable{
-    background-image: url(../images1/affordable-banner.jpg);
+    background-image: url(../images1/affordable_new.jpg);
 }
 .sub-banner.contact-banner{
     background-image: url(../images1/privacy-banner.jpg)!important;
@@ -502,7 +502,9 @@
      display: flex;
      flex-direction: column;
      justify-content: center;
+     padding-right: 15px;
 }
+
  .casino-rate h6 {
      margin-bottom: 0px;
      color: var(--dark-blue);
