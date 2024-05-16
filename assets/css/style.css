@@ -409,6 +409,18 @@
      background-size: cover;
      position: relative;
 }
+.sub-banner.luxury{
+    background-image: url(../images1/Luxury-banner.jpg);
+}
+.sub-banner.unique{
+    background-image: url(../images1/Unique-Hotel-banner.jpg);
+}
+.sub-banner.casino{
+    background-image: url(../images1/casino-banner.jpg);
+}
+.sub-banner.affordable{
+    background-image: url(../images1/affordable-banner.jpg);
+}
  .sub-nav.menu-block, .site-banner .carousel, .sub-banner{
      height: 500px;
 }
