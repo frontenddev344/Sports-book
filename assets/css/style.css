@@ -176,13 +176,13 @@
      left: 0;
      height: 100%;
      width: 100%;
-     background-color: #000;
+     background-color: #dcbc87;
      opacity: 0.5;
 }
  .sub-nav-right h2{
      position: relative;
      z-index: 9;
-     color: var(--white);
+     color: #38939b;
      font-size: 35px;
 }
  .close-menu {
@@ -192,7 +192,7 @@
      font-size: 20px;
      cursor: pointer;
      z-index: 9;
-     color: var(--white);
+     color: #38939b;
 }
  .sub-nav-txt {
      width: 90%;
