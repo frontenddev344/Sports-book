@@ -3,7 +3,17 @@
         bottom: 70%;
     }
     .sub-nav.menu-block, .site-banner .carousel, .sub-banner {
-        height: 600px;
+        height: 400px;
+    }
+    .site-banner .carousel {
+        height: 550px;
+    }
+
+}
+@media(max-width:1400px){
+    .site-banner .carousel-caption {
+
+        top: 0;
     }
 }
 @media(max-width:1200px){
@@ -33,7 +43,7 @@
         width: 60%;
    }
     .sub-nav.menu-block, .site-banner .carousel, .sub-banner {
-        height: 450px;
+        height: 400px;
    }
     .site-banner .carousel-indicators [data-bs-target] {
         width: 12px;
