@@ -656,3 +656,7 @@ height: 100%;
 .loader-page {
     display: none!important;
 }
+
+.sub-nav-txt h2 {
+    font-size: 40px;
+}
