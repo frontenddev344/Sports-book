@@ -168,7 +168,10 @@
         transform: translateY(70%);
    }
     .site-banner .carousel-caption {
-        width: 70%;
+        width: 85%;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
    }
     .serch-close, h3 {
         font-size: 25px;
