@@ -262,6 +262,9 @@
     .mb-serch-box button {
         border: none;
    }
+   .casino-loc-wrap .monte-wrap {
+    height: 550px;
+}
 }
 @media(max-width:767px){
     .copy-right p {
